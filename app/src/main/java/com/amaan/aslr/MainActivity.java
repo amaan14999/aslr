@@ -10,42 +10,55 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import org.opencv.android.OpenCVLoader;
 
-public class MainActivity extends AppCompatActivity {
-    static {
-        if (OpenCVLoader.initDebug()) {
+public class MainActivity extends AppCompatActivity 
+{
+    static 
+    {
+        if (OpenCVLoader.initDebug()) 
+        {
             Log.d("MainActivity: ", "Opencv is loaded");
-        } else {
+        } 
+        else 
+        {
             Log.d("MainActivity: ", "Opencv failed to load");
         }
     }
-
+    
+    // to display button at homescreen for the 2 features.
     private Button camera_button;
     private Button combine_letter_button;
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    protected void onCreate(Bundle savedInstanceState) 
+    {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-
-        camera_button = findViewById(R.id.camera_button);
-        camera_button.setOnClickListener(new View.OnClickListener() {
+        
+        camera_button = findViewById(R.id.camera_button); // to find the camera button's id from the activity_main.xml
+        
+        // now, on clicking the camera_button, the activity will redirect from main activity to cameraActivity class
+        camera_button.setOnClickListener(new View.OnClickListener() 
+        {
             @Override
-            public void onClick(View v) {
+            public void onClick(View v) 
+            {
+                //when this button is clicked, navigate to CameraActivity
                 startActivity(new Intent(MainActivity.this, CameraActivity.class).addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_CLEAR_TOP));
             }
         });
 
 
-        combine_letter_button = findViewById(R.id.combine_letter_button);
-        combine_letter_button.setOnClickListener(new View.OnClickListener() {
+        combine_letter_button = findViewById(R.id.combine_letter_button); // to find the camera button's id from the activity_main.xml
+        
+         // now, on clicking the combine_letter_button, the activity will redirect from main activity to CombineLettersActivity class
+        combine_letter_button.setOnClickListener(new View.OnClickListener() 
+        {
             @Override
-            public void onClick(View view) {
+            public void onClick(View view) 
+            {
                 //when this button is clicked, navigate to CombineLettersActivity
-                //before that, we have to create CombineLettersActivity
-                // now add startActivity
                 startActivity(new Intent(MainActivity.this, CombineLettersActivity.class).addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_CLEAR_TOP));
-                //now we create a copy of cameraActivity
             }
         });
     }
