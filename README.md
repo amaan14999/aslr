@@ -27,7 +27,7 @@ Method 2:
 ```bash
 Step 1: Download the code zip file and extract it on your local machine
 Step 2: Open the project in Android Studio.
-Step 3: The wil not run on the Virtual Emulator of Android Studio due to GPU access errors
+Step 3: The code wil not run on the Virtual Emulator of Android Studio due to GPU access errors
 Step 4: Plug in your Android phone via USB
 Step 5: Enable Developer options on your device
 Step 6: In Developer Options, enable USB debugging.
