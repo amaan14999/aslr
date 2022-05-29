@@ -30,11 +30,6 @@ Method 1:
 
 
 
-
-
-
-
-
 Method 2:
 
 ```bash
@@ -44,7 +39,7 @@ Step 3: The code wil not run on the Virtual Emulator of Android Studio due to GP
 Step 4: Plug in your Android phone via USB
 Step 5: Enable Developer options on your device
 Step 6: In Developer Options, enable USB debugging.
-Step 7: Now click on the run button in you Android Studio to run the application on your phone
+Step 7: Now click on the run button in your Android Studio to run the application on your phone
 ```
 ## Authors
 
