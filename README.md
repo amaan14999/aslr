@@ -26,13 +26,8 @@ Method 1:
 
 ![Screenshot 2022-05-29 232439](https://user-images.githubusercontent.com/73187712/170884632-c2ad2aa7-eecb-4d50-9a6a-905064323523.png)
 
-![Screenshot_20220529-233048](https://user-images.githubusercontent.com/73187712/170884932-2473b2a0-0829-4eb0-b475-143741c2b823.jpg)
+![Installation-steps](https://user-images.githubusercontent.com/73187712/170885397-eb927500-0214-4839-8842-afd868334d03.jpg)
 
-![Screenshot_20220529-233055](https://user-images.githubusercontent.com/73187712/170884936-973da5e7-1dbb-4703-909c-55c7b65763e8.jpg)
-
-![Screenshot_20220529-233109](https://user-images.githubusercontent.com/73187712/170884943-2c2c5892-c0be-4409-8a61-437443f08194.jpg)
-
-![Screenshot_20220529-233115](https://user-images.githubusercontent.com/73187712/170884981-2702bed2-5159-47a1-8621-c1df8dcdec61.jpg)
 
 
 
