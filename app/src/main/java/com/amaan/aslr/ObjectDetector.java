@@ -315,7 +315,7 @@ public class ObjectDetector {
         return val;
     }
     
-    //this model is for hand_model
+    //bytebuffer converter for hand_model
     private ByteBuffer convertBitmapToByteBuffer(Bitmap bitmap) {
         ByteBuffer byteBuffer;
         int quant = 1;
@@ -349,7 +349,7 @@ public class ObjectDetector {
 
 
     
-    //we create another bytebuffer for sign language model
+    //we create another bytebuffer converter for sign language model
     private ByteBuffer convertBitmapToByteBuffer1(Bitmap bitmap) {
         ByteBuffer byteBuffer;
 
