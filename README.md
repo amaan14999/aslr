@@ -18,7 +18,7 @@ Method 1:
 
 ```bash
   Step 1. In the Git repository, click on v1.0: initial commit, under  the Realeases tab present on the right hand side of the repository
-  Step 2. Click on app-release.apk to download the apk file
+  Step 2. Click on app-release.apk to download the apk file on your android device
   Step 3. Install the apk file in your Android device and run.
   You can View the screenshots below:
 ```
