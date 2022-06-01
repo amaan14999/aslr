@@ -52,6 +52,10 @@ Now connect your android phone to your computer via USB and Open the project in 
 You will see your device at the top, As shown in the image below:
 ![Screenshot 2022-06-01 200813](https://user-images.githubusercontent.com/73187712/171432763-f561171b-8922-4286-98d5-69ff7d15714b.png)
 
+Click on the 'run' icon to execute the project, you will get a pop-up "launch Succeeded"
+![Screenshot 2022-06-01 201008](https://user-images.githubusercontent.com/73187712/171454943-e4156444-bfee-450e-8df3-4712404335fd.png)
+
+
 
 ## Authors
 
